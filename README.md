@@ -110,9 +110,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div id="myfigure" class="chart">
-                            <div class="bar-block" style="height: 90px; left:40"> 580 </div>
-                            <div class="bar-block" style="height: 50px; left:80px"> 160 </div>
-                            <div class="bar-block" style="height: 60px; left:120px"> 180 </div>
+                            <div class="bar-block" style="height: 90px; left:45"> 580 </div>
+                            <div class="bar-block" style="height: 50px; left:55px"> 160 </div>
+                            <div class="bar-block" style="height: 60px; left:65px"> 180 </div>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                 <h2>Votes from Central Government's invisible hand</h2>
                 <div class="row ">
                     <div class="col-md-12 ">
-                        <button id="add-animate" class="btn btn-primary "> Add Oil! </button>
+                        <button id="add-animate" class="btn btn-primary "> Oh no! </button>
                     </div>
                 </div>
                 <script>
