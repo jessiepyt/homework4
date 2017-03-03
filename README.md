@@ -46,16 +46,14 @@
                     </div>
                 </div>
                 <script>
-                    $(function() { // Routine format; put all your jQuery initialisation inside
-                        $('#calculate').click(function() { // Set the mouse click event hander for element "#calculate"
-                            // Normal Javascript here
-                            // Do whatever you want
-                            var amount = $('#amount').val();
-                            var unit = $('#unit').val();
-                            var total = amount * unit;
+                    $(function() {
+                        $('#calculate').click(function() {
+                            var amount = ('#amount').val();
+                            var unit = ('#unit').val();
+                            var total = amount - unit;
                             $('#total').val(total);
                         });
-                    }); // Routine format; put all your jQuery initialisation inside
+                    });
                 </script>
 
                 <h2> Callings from God </h2>
