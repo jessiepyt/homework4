@@ -58,7 +58,7 @@
                     }); // Routine format; put all your jQuery initialisation inside
                 </script>
 
-                <h2> Message from God </h2>
+                <h2> Callings from God </h2>
                 <style>
                     correction {
                         background-color: darkcyan;
@@ -85,7 +85,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <button id="toggle" class="btn btn-primary">Toggle answer</button>
+                        <button id="toggle" class="btn btn-primary">Pick up the call!</button>
                     </div>
                 </div>
                 <script>
@@ -110,9 +110,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div id="myfigure" class="chart">
-                            <div class="bar-block" style="height: 80px; left:5"> Carrie Lam </div>
-                            <div class="bar-block" style="height: 60px; left:45px"> John Tsang </div>
-                            <div class="bar-block" style="height: 90px; left:85px"> Woo Kwok-Hing </div>
+                            <div class="bar-block" style="height: 90px; left:40"> 580 </div>
+                            <div class="bar-block" style="height: 50px; left:80px"> 160 </div>
+                            <div class="bar-block" style="height: 60px; left:120px"> 180 </div>
                         </div>
                     </div>
                 </div>
