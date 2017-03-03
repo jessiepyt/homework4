@@ -10,9 +10,9 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <title>Hong Kong Chief Excutive Election 2017 Fun Fun Choice </title>
+    <h1>Hong Kong Chief Excutive Election 2017 Fun Fun Choice </h1>
     <h2>by Jessie Pang </h2>
-
+    <p1>The election for Hong Kong's chief executive is scheduled on March 26, 2017. As Hong Kong citizen do not enjoy one people one vote, below are ways for your to show your support for the candidates. </p1>
 </head>
 
 <body>
@@ -21,14 +21,14 @@
             <div class="col-md-4">
                 <h1></h1>
 
-                <h2> Calculator </h2>
+                <h2> Votes still needed to become CE </h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label for="amount">Amount of books</label>
-                            <input class="form-control" type="text" id="amount" value="3">
-                            <label for="unit">Unit price</label>
-                            <input class="form-control" type="text" id="unit" value="100">
+                            <label for="amount">Votes required to win</label>
+                            <input class="form-control" type="text" id="amount" value="601">
+                            <label for="unit">Votes currently obtained</label>
+                            <input class="form-control" type="text" id="unit" value="300">
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label for="total">Total cost:</label>
+                            <label for="total">Votes needed:</label>
                             <input class="form-control" type="text" id="total">
                         </div>
                     </div>
@@ -106,15 +106,13 @@
                     })
                 </script>
 
-                <h2>Move the bar chart in a batch</h2>
+                <h2>Votes from one people one vote</h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div id="myfigure" class="chart">
-                            <div class="bar-block" style="height: 80px; left:5"> 80 </div>
-                            <div class="bar-block" style="height: 60px; left:45px"> 60 </div>
-                            <div class="bar-block" style="height: 90px; left:85px"> 90 </div>
-                            <div class="bar-block" style="height: 110px; left:125px"> 110 </div>
-                            <div class="bar-block" style="height: 20px; left:165px"> 20 </div>
+                            <div class="bar-block" style="height: 80px; left:5"> Carrie Lam </div>
+                            <div class="bar-block" style="height: 60px; left:45px"> John Tsang </div>
+                            <div class="bar-block" style="height: 90px; left:85px"> Woo Kwok-Hing </div>
                         </div>
                     </div>
                 </div>
@@ -160,7 +158,7 @@
                     });
                 </script>
 
-                <h2>Move the bar chart with animation</h2>
+                <h2>Votes from Central Government's invisible hand</h2>
                 <div class="row ">
                     <div class="col-md-12 ">
                         <button id="add-animate" class="btn btn-primary "> Add Oil! </button>
