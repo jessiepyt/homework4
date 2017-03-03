@@ -12,7 +12,7 @@
 
     <h1>Hong Kong Chief Excutive Election 2017 Fun Fun Choice </h1>
     <h2>by Jessie Pang </h2>
-    <img src="http://www.ejinsight.com/wp-content/uploads/2017/02/1501447_c1fa64c91476429762bdd063c253e6a6-692x360.jpg" alt="CE candidates" style="width:450px;height:350px;">
+    <img src="http://www.ejinsight.com/wp-content/uploads/2017/02/1501447_c1fa64c91476429762bdd063c253e6a6-692x360.jpg" alt="CE candidates" style="width:450px;height:250px;">
     <br>
     <p1>The election for Hong Kong's chief executive is scheduled on March 26, 2017. As Hong Kong citizen do not enjoy one people one vote, below are ways for your to show your support for the candidates. </p1>
 </head>
@@ -46,15 +46,16 @@
                     </div>
                 </div>
                 <script>
-                
-                    $(function() {
-                        $('#calculate').click(function() {
-                            var amount = ('#amount')-val();
-                            var unit = ('#unit')-val();
-                            var total = amount-unit;
-                            $('#total')-val(total);
+                   $(function() { // Routine format; put all your jQuery initialisation inside
+                        $('#calculate').click(function() { // Set the mouse click event hander for element "#calculate"
+                            // Normal Javascript here
+                            // Do whatever you want
+                            var amount = $('#amount').val();
+                            var unit = $('#unit').val();
+                            var total = amount - unit;
+                            $('#total').val(total);
                         });
-                    });
+                    }); 
                 </script>
 
                 <h2> Callings from God </h2>
