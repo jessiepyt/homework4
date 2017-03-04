@@ -12,23 +12,23 @@
 
     <h1>Hong Kong Chief Excutive Election 2017 Fun Fun Choice </h1>
     <h2>by Jessie Pang </h2>
-
+    <img src="http://www.ejinsight.com/wp-content/uploads/2017/02/1501447_c1fa64c91476429762bdd063c253e6a6-692x360.jpg" alt="CE candidates" style="width:450px;height:250px;">
+    <br>
+    <p1>The election for Hong Kong's chief executive is scheduled on March 26, 2017. As Hong Kong citizen do not enjoy one people one vote, below are ways for your to show your support for the candidates. </p1>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h1></h1>
-
-                <h2> Calculator </h2>
+                <h2> Votes still needed to become CE </h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label for="amount">Amount of books</label>
-                            <input class="form-control" type="text" id="amount" value="3">
-                            <label for="unit">Unit price</label>
-                            <input class="form-control" type="text" id="unit" value="100">
+                            <label for="amount">Votes required to win</label>
+                            <input class="form-control" type="text" id="amount" value="601">
+                            <label for="unit">Votes currently obtained</label>
+                            <input class="form-control" type="text" id="unit" value="300">
                         </div>
                     </div>
                 </div>
@@ -40,25 +40,23 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label for="total">Total cost:</label>
+                            <label for="total">Votes needed:</label>
                             <input class="form-control" type="text" id="total">
                         </div>
                     </div>
                 </div>
                 <script>
-                    $(function() { // Routine format; put all your jQuery initialisation inside
-                        $('#calculate').click(function() { // Set the mouse click event hander for element "#calculate"
-                            // Normal Javascript here
-                            // Do whatever you want
+                   $(function() { 
+                        $('#calculate').click(function() { 
                             var amount = $('#amount').val();
                             var unit = $('#unit').val();
-                            var total = amount * unit;
+                            var total = amount - unit;
                             $('#total').val(total);
                         });
-                    }); // Routine format; put all your jQuery initialisation inside
+                    }); 
                 </script>
 
-                <h2> Message from God </h2>
+                <h2> Callings from God </h2>
                 <style>
                     correction {
                         background-color: darkcyan;
@@ -85,7 +83,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <button id="toggle" class="btn btn-primary">Toggle answer</button>
+                        <button id="toggle" class="btn btn-primary">Pick up the call!</button>
                     </div>
                 </div>
                 <script>
@@ -106,15 +104,13 @@
                     })
                 </script>
 
-                <h2>Move the bar chart in a batch</h2>
+                <h2>Votes from one people one vote</h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div id="myfigure" class="chart">
-                            <div class="bar-block" style="height: 80px; left:5"> 80 </div>
-                            <div class="bar-block" style="height: 60px; left:45px"> 60 </div>
-                            <div class="bar-block" style="height: 90px; left:85px"> 90 </div>
-                            <div class="bar-block" style="height: 110px; left:125px"> 110 </div>
-                            <div class="bar-block" style="height: 20px; left:165px"> 20 </div>
+                            <div class="bar-block" style="height: 90px; left:5px"> 580 </div>
+                            <div class="bar-block" style="height: 50px; left:45px"> 160 </div>
+                            <div class="bar-block" style="height: 60px; left:85px"> 180 </div>
                         </div>
                     </div>
                 </div>
@@ -160,10 +156,10 @@
                     });
                 </script>
 
-                <h2>Move the bar chart with animation</h2>
+                <h2>Votes from Central Government's invisible hand</h2>
                 <div class="row ">
                     <div class="col-md-12 ">
-                        <button id="add-animate" class="btn btn-primary "> Add Oil! </button>
+                        <button id="add-animate" class="btn btn-primary "> Oh no! </button>
                     </div>
                 </div>
                 <script>
@@ -183,4 +179,3 @@
     </div>
 
 </body>
-
