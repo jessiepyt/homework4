@@ -148,12 +148,8 @@
                 <script>
                     $(function() {
                         $('#add').click(function() {
-                            // Note 1: map() method lets you execute a function on all matched elements
                             $('.bar-block').map(function() {
-                                // Note 2: $(this) refers to the current match element
-                                // Note 3: Deal with string/ number conversion
                                 $(this).text($(this).text() * 1 + 5);
-                                // Note 4: Deal with the "px" unit in CSS property value
                                 var height_px = $(this).css('height');
                                 var height = height_px.substr(0, height_px.length - 2);
                                 $(this).css('height', (height * 1 + 5) + 'px');
@@ -199,7 +195,7 @@
                        padding: 5px;
                        font-size: 18px;
                        text-align: center;
-                       background-color:  #8286f4;
+                       background-color:  black;
                        color: white;
                        border: solid 1px #666;
                        border-radius: 3px;
