@@ -9,13 +9,18 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <h1>Hong Kong Chief Excutive Election 2017 Fun Fun Choice </h1>
-    <h2>by Jessie Pang </h2>
-    <img src="http://www.ejinsight.com/wp-content/uploads/2017/02/1501447_c1fa64c91476429762bdd063c253e6a6-692x360.jpg" alt="CE candidates" style="width:450px;height:250px;">
-    <br>
-    <br>
-    <p1>The election for Hong Kong's chief executive is scheduled on March 26, 2017. As Hong Kong citizen do not enjoy one people one vote, below are ways for your to show your support for the candidates. </p1>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                 <h1> Hong Kong Chief Excutive Election 2017 Fun Fun Choice </h1>
+                      <h2> by Jessie Pang </h2>
+                          <img src="http://www.ejinsight.com/wp-content/uploads/2017/02/1501447_c1fa64c91476429762bdd063c253e6a6-692x360.jpg" alt="CE candidates" style="width:450px;height:250px;">
+                               <br>
+                                   <p1>The election for Hong Kong's chief executive is scheduled on March 26, 2017. As Hong Kong citizen do not enjoy one people one vote, below are ways for your to show your support for the candidates. </p1>
+              </div>
+          </div>
+        </div>
 </head>
 
 <body>
@@ -143,12 +148,8 @@
                 <script>
                     $(function() {
                         $('#add').click(function() {
-                            // Note 1: map() method lets you execute a function on all matched elements
                             $('.bar-block').map(function() {
-                                // Note 2: $(this) refers to the current match element
-                                // Note 3: Deal with string/ number conversion
                                 $(this).text($(this).text() * 1 + 5);
-                                // Note 4: Deal with the "px" unit in CSS property value
                                 var height_px = $(this).css('height');
                                 var height = height_px.substr(0, height_px.length - 2);
                                 $(this).css('height', (height * 1 + 5) + 'px');
@@ -175,8 +176,41 @@
                         });
                     });
                 </script>
-            </div>
+                <br>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script> 
+                  $(document).ready(function(){
+                       $("#flip").click(function(){
+                            $("#panel").slideDown(5000);
+                                  });
+                                     $("#stop").click(function(){
+                                        $("#panel").stop();
+                                   });
+                                 });
+                 </script> 
+ 
+                 <style> 
+                       #panel, #flip {
+                       padding: 5px;
+                       font-size: 18px;
+                       text-align: center;
+                       background-color: #2a6497;
+                       color: white;
+                       border: solid 1px #666;
+                       border-radius: 3px;
+                       }
+                      #panel {
+                      padding: 20px;
+                      display: none;
+                       }
+                  </style>
+                     <div class="row ">
+                         <div class="col-md-12 ">
+                              <div id="flip"> Final message from the game developer: Want to determine HK future by yourself?</div>
+                                  <div id="panel"> Be the change you want by start participating in the community! </div>
+                             </div>
+                          </div>
+                      </div>
+               </div>
         </div>
-    </div>
-
 </body>
